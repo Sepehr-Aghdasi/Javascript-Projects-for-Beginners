@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav {
+  background: #fff;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav-toggle {
+  font-size: 1.5rem;
+  color: #49a6e9;
+  background: transparent;
+  border-color: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.nav-toggle.transform-button {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.logo {
+  height: 40px;
+}
+
+.links {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.links a {
+  color: #324d67;
+  font-size: 1rem;
+  text-transform: capitalize;
+  display: block;
+  padding: 0.5rem 1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  background: #a5d5f8;
+  color: #49a6e9;
+  padding-left: 1.5rem;
+}
+
+.social-icons {
+  display: none;
+}
+
+.show-links {
+  height: 10rem;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .links .social-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .links .social-icons a {
+    margin: 0 0.5rem;
+    color: #49a6e9;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .links .social-icons a:hover {
+    color: #8bcbf9;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
