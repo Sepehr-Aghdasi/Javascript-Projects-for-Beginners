@@ -11,3 +11,4 @@
 | **03** |              [Clock](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/03-javascript-Clock)               | Get time from your computer and show them  |
 | **04** |       [Show Navbar(Mobile)](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/04-Responsive-Navbar)       | Show and hide navbar in mobile             |
 | **05** |     [Show Sidebar(Mobile)](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/05-Responsive-Sidebar/)      | Show and hide sidebar                      |
+| **06** |                   [Modal](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/06-Modal/)                    | Show modal with message                    |
