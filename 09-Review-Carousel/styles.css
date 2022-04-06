@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+:root {
+  --fixed-width: 620px;
+  --max-width: 1170px;
+  --border-radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --transition: all 0.3s;
+  --blue-color: #49a6e9;
+  --white-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80vw;
+  max-width: var(--fixed-width);
+}
+
+.container .title {
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+  justify-content: center;
+}
+
+.container .title .underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: var(--blue-color);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.container .review {
+  background-color: var(--white-color);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  box-shadow: var(--light-shadow);
+}
+
+.container .review:hover {
+  box-shadow: var(--dark-shadow);
+}
+
+.container .review .image-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+
+.container .review .image-container::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background: var(--blue-color);
+  color: var(--white-color);
+}
+
+.container .review .image-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--blue-color);
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  border-radius: 50%;
+}
+
+.container .review .image-container #person-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  /* display: block; */
+}
+
+.container .review #author {
+  margin-bottom: 0.75rem;
+}
+
+.container .review #job {
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+  color: var(--blue-color);
+  font-size: 0.85rem;
+}
+
+.container .review #info {
+  margin-bottom: 0.75rem;
+}
+
+.container .review .button-container .prev-btn,
+.container .review .button-container .next-btn {
+  color: #8bcbf9;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 1rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.container .review .button-container .prev-btn:hover,
+.container .review .button-container .next-btn:hover {
+  color: #49a6e9;
+}
+
+.container .review .random-btn {
+  margin-top: 0.5rem;
+  background: #ebf7ff;
+  color: #49a6e9;
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  transition: var(--transition);
+  border-color: #49a6e9;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+
+.container .review .random-btn :hover {
+  background: #49a6e9;
+  color: var(--white-color);
+}
+/*# sourceMappingURL=styles.css.map */
