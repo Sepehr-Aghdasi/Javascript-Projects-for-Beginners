@@ -16,3 +16,4 @@
 | **08** |      [Restaurant Menu Page](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/08-Restaurant-Menu-Page/)      | Restaurant Menu Page with different category's |
 | **09** |           [Review Carousel](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/09-Review-Carousel/)           | Review Carousel                                |
 | **10** | [Tabs with different contents](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/10-tabs-different-content/) | Show tabs with different contents              |
+| **11** |                [Word Count](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/11-Word-Count/)                | Count the entered words  |
