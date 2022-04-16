@@ -1,0 +1,64 @@
+.text {
+  position: fixed !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.box {
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 80px;
+  margin-left: 30%;
+  color: white;
+}
+
+.box:nth-child(1) {
+  background-color: aqua;
+}
+
+.box:nth-child(2) {
+  background-color: purple;
+}
+
+.box:nth-child(3) {
+  background-color: orange;
+}
+
+.box:nth-child(4) {
+  background-color: red;
+}
+
+.box:nth-child(5) {
+  background-color: yellow;
+}
+
+.box:nth-child(6) {
+  background-color: pink;
+}
+
+.box:nth-child(7) {
+  background-color: blue;
+}
+
+.box:nth-child(8) {
+  background-color: gray;
+}
+
+.btn {
+  width: 70px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+  background-color: #ff4a4a;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.8s;
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */
