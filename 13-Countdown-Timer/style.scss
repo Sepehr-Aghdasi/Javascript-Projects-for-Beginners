@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+* {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      text-decoration: none;
+      list-style-type: none;
+      box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+}
+html,
+body {
+      width: 100%;
+      height: 100%;
+}
+.container {
+      display: flex;
+      justify-content: center;
+}
+.main {
+      display: flex;
+      width: 70%;
+      margin-top: 5rem;
+      .gift-image {
+            width: 60%;
+            height: 100%;
+            img {
+                  width: 100%;
+                  height: 100%;
+            }
+      }
+      .gift-info {
+            width: 50%;
+            height: 100%;
+            h2 {
+                  padding: 20px 0px 10px 20px;
+            }
+            h4 {
+                  padding: 0px 0px 20px 20px;
+            }
+            p {
+                  padding: 0px 0px 5px 20px;
+            }
+            .deadline {
+                  display: flex;
+                  justify-content: center;
+                  margin: 2rem 0;
+                  .deadline-format {
+                        background-color: #102a42;
+                        color: #fff;
+                        min-width: 5rem;
+                        min-height: 5rem;
+                        margin: 0.375rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        text-transform: uppercase;
+                        padding-bottom: 1rem;
+                        h4 {
+                              font-size: 2rem;
+                              padding: 0;
+                              text-align: center;
+                        }
+                  }
+            }
+            .expire {
+                  width: 100%;
+                  height: auto;
+                  color: #102a42;
+                  text-align: center;
+                  font-size: 2rem;
+                  animation: scales 1s infinite ease-in-out;
+                  display: none;
+            }
+            @keyframes scales {
+                  0% {
+                        transform: scale(1);
+                  }
+                  100% {
+                        transform: scale(1.2);
+                  }
+            }
+      }
+}
