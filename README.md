@@ -19,4 +19,4 @@
 | **11** |                [Word Count](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/11-Word-Count/)                | Count the entered words                        |
 | **12** |              [Word Count](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/12-smooth-scroll/)               | Smoothly scroll the web page to top position   |
 | **13** |              [Countdown Timer](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/13-Countdown-Timer/)               | Countdown clock  |
-| **14** |              [Countdown Timer](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/14-Pass-Message/)               | Pass message  |
+| **14** |              [Pass Message](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/14-Pass-Message/)               | Pass message  |
