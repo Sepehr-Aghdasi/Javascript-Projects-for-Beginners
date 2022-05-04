@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+* {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      text-decoration: none;
+      list-style-type: none;
+      box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+}
+html,
+body,
+.container {
+      width: 100%;
+      height: 100%;
+}
+.preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #fff;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      visibility: visible;
+      z-index: 999;
+      transition: 0.3s;
+}
+.hide-preloader {
+      z-index: -999;
+      visibility: hidden;
+}
+
+header {
+      min-height: 100vh;
+      position: relative;
+      display: grid;
+      place-items: center;
+}
+.video-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+}
+h1 {
+      color: #fff;
+}
+/* switch button */
+
+.playAndPauseBtn {
+      width: 7rem;
+      height: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      border-radius: 4px;
+      border: none;
+      transition: 0.3s;
+      width: 10%;
+      height: 10%;
+      padding: 15px;
+      align-items: center;
+      background: rgb(14, 70, 107);
+      transition: 0.3s;
+      cursor: pointer;
+}
+/* header after */
+header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: -1;
+}
