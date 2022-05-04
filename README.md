@@ -22,3 +22,4 @@
 | **14** |              [Pass Message](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/14-Pass-Message/)              | Pass message                                   |
 | **15** |                [Word Count](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/15-Word-Count/)                | Count Word length                              |
 | **16** |             [Random Quotes](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/16-Random-Quotes/)             | Random Quote generator                         |
+| **17** |              [Video Player](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/17-Video-Player/)              | preloader                                      |
