@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+* {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      text-decoration: none;
+      list-style-type: none;
+      box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+}
+body {
+      height: 100vh;
+      letter-spacing: 3px;
+      background: #066acd !important;
+}
+.push {
+      transition: 0.3s;
+      &:hover {
+            transition: 0.3s;
+            transform: scale(1.1);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      }
+}
+.display-alert {
+      visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      padding: 15px;
+      font-weight: bold;
+      color: #fff;
+      height: 40px;
+      transition: 0.3s;
+      margin: 15px 0;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.task-item {
+      background-color: #c5e1e6;
+      height: 50px;
+      margin-bottom: 8px;
+      padding: 5px 10px;
+      display: flex;
+      border-radius: 5px;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #939697;
+
+      span {
+            font-size: 1.3rem;
+            font-weight: bold;
+            transition: 0.3s;
+      }
+      .deleteBtn {
+            background-color: #0a2ea4;
+            color: #ffffff;
+            height: 100%;
+            width: 40px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            transition: 0.3s;
+            &:hover {
+                  transition: 0.3s;
+                  transform: scale(1.1);
+                  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            }
+      }
+}
+input[type="checkbox"] {
+      height: 25px;
+      width: 25px;
+      background: red !important;
+      &:hover {
+            cursor: pointer;
+            background: #f35429 !important;
+      }
+      &:focus {
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+      }
+      &:checked {
+            background: #f35429 !important;
+      }
+}
