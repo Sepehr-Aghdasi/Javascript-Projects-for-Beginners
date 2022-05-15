@@ -24,3 +24,4 @@
 | **16** |             [Random Quotes](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/16-Random-Quotes/)             | Random Quote generator                         |
 | **17** |              [Video Player](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/17-Video-Player/)              | preloader                                      |
 | **18** |            [Typewriter](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/18-Typewriter-Effect/)             | typewriter animation effect                    |
+| **19** |                 [ToDo List](https://sepehr-aghdasi82.github.io/Javascript-Projects-for-Beginners/19-ToDoList/)                  | to do list app with javascript                 |
