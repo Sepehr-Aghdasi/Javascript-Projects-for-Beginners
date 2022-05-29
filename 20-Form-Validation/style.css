@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  letter-spacing: 2px;
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f9fafb;
+}
+
+.row {
+  min-width: 40%;
+  height: 100%;
+  margin: 5rem 0;
+}
+
+.row .form {
+  min-width: 100%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.row .form h2 {
+  padding: 1rem;
+  line-height: 2em;
+}
+
+.row .form span {
+  background-image: -webkit-gradient(linear, left top, right top, from(#32557F), to(#32557F));
+  background-image: linear-gradient(to right, #32557F 0%, #32557F 100%);
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-size: 100% 3px;
+  color: #32557F;
+  padding: 5px 0;
+}
+
+.row .form button[type="submit"] {
+  padding: 0.575rem 1.175rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: rgba(3, 102, 214, 0.3);
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.row .form button[type="submit"]:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: rgba(0, 54, 116, 0.945);
+}
+
+.row .form .form-control {
+  min-width: 80%;
+  padding: 0.5rem 0;
+  color: #777;
+  position: relative;
+}
+
+.row .form .form-control label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1rem 0 0.4rem 0;
+}
+
+.row .form .form-control input {
+  min-width: 100%;
+  border: 3px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: none;
+}
+
+.row .form .form-control input:focus {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 3px rgba(3, 102, 214, 0.3) solid;
+}
+
+.row .form .form-control input[type="number"]::-webkit-inner-spin-button,
+.row .form .form-control input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.row .form .form-control input:focus label {
+  color: #000;
+}
+
+.row .form .form-control small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0.5rem 0 0 0;
+}
+
+.row .form .form-control .success-icon {
+  color: green;
+  opacity: 0;
+  position: absolute;
+  right: 15px;
+  bottom: 30px;
+}
+
+.row .form .form-control .failure-icon {
+  color: red;
+  opacity: 0;
+  position: absolute;
+  right: 15px;
+  bottom: 48px;
+}
+
+.show-icon {
+  opacity: 1 !important;
+}
+/*# sourceMappingURL=style.css.map */

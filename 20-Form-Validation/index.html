@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta name="description" content="JavaScript ToDo List" />
+            <meta name="keywords" content="ToDoList JavaScript" />
+            <meta name="author" content="Sepehr Aghdasi" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Form-Validation</title>
+            <link rel="stylesheet" href="style.css" />
+            <link
+                  rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            />
+      </head>
+      <body>
+            <div class="container">
+                  <div class="row">
+                        <form
+                              class="form"
+                              name="form"
+                              action="/my-handling-form-page"
+                              method="post"
+                        >
+                              <h2><span> Register </span>With Us</h2>
+                              <div class="form-control">
+                                    <label for="username">username :</label>
+                                    <input
+                                          type="text"
+                                          placeholder="Enter username"
+                                          id="username"
+                                          name="username"
+                                          tabindex="1"
+                                    />
+                                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                                    <i class="far fa-check-circle success-icon"></i>
+                                    <small></small>
+                              </div>
+                              <div class="form-control">
+                                    <label for="email">email :</label>
+                                    <input
+                                          type="email"
+                                          placeholder="Enter email"
+                                          id="email"
+                                          name="email"
+                                          tabindex="2"
+                                    />
+                                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                                    <i class="far fa-check-circle success-icon"></i>
+                                    <small></small>
+                              </div>
+                              <div class="form-control">
+                                    <label for="number">phone number :</label>
+                                    <input
+                                          type="number"
+                                          placeholder="Enter phone number"
+                                          id="number"
+                                          name="number"
+                                          tabindex="3"
+                                    />
+                                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                                    <i class="far fa-check-circle success-icon"></i>
+                                    <small></small>
+                              </div>
+                              <div class="form-control">
+                                    <label for="password">password :</label>
+                                    <input
+                                          type="password"
+                                          placeholder="Enter password"
+                                          id="password"
+                                          name="password"
+                                          tabindex="4"
+                                    />
+                                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                                    <i class="far fa-check-circle success-icon"></i>
+                                    <small></small>
+                              </div>
+                              <div class="form-control">
+                                    <label for="password2">Confirm Password :</label>
+                                    <input
+                                          type="password"
+                                          placeholder="Confirm Password"
+                                          id="password2"
+                                          name="password2"
+                                          tabindex="5"
+                                    />
+                                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                                    <i class="far fa-check-circle success-icon"></i>
+                                    <small></small>
+                              </div>
+                              <button type="submit" name="submit-btn" tabindex="6">submit</button>
+                        </form>
+                  </div>
+            </div>
+            <script src="index.js"></script>
+      </body>
+</html>

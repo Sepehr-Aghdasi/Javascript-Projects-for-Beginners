@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      letter-spacing: 2px;
+      text-decoration: none;
+      list-style-type: none;
+      box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+      text-transform: capitalize;
+}
+html,
+body {
+      width: 100%;
+      height: 100%;
+}
+.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9fafb;
+}
+.row {
+      min-width: 40%;
+      height: 100%;
+      margin: 5rem 0;
+      .form {
+            min-width: 100%;
+            height: 100%;
+            // padding: 30px 40px;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            h2 {
+                  padding: 1rem;
+                  line-height: 2em;
+            }
+            span {
+                  background-image: linear-gradient(to right, #32557F 0%, #32557F 100%);
+                  background-repeat: repeat-x;
+                  background-position: 0 100%;
+                  background-size: 100% 3px;
+                  color: #32557F;
+                  padding: 5px 0;
+            }
+            button[type="submit"] {
+                  padding: 0.575rem 1.175rem;
+                  margin: 1rem;
+                  border: none;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  transition: 0.3s;
+                  background-color: rgba(3, 102, 214, 0.3);
+                  color: #fff;
+                  font-weight: 400;
+                  font-size: 1rem;
+                  &:hover {
+                        transform: scale(1.2);
+                        transition: 0.3s;
+                        background-color: rgba(0, 54, 116, 0.945);
+                  }
+            }
+            .form-control {
+                  min-width: 80%;
+                  padding: 0.5rem 0;
+                  color: #777;
+                  position: relative;
+                  label {
+                        display: flex;
+                        justify-content: flex-start;
+                        padding: 1rem 0 0.4rem 0;
+                  }
+                  input {
+                        min-width: 100%;
+                        border: 3px solid #f0f0f0;
+                        border-radius: 4px;
+                        padding: 10px;
+                        font-size: 14px;
+                        transition: 0.3s;
+                        text-transform: none;
+                        &:focus {
+                              transition: 0.3s;
+                              border: 3px rgba(3, 102, 214, 0.3) solid;
+                        }
+                  }
+                  input[type="number"]::-webkit-inner-spin-button,
+                  input[type="number"]::-webkit-outer-spin-button {
+                        -webkit-appearance: none;
+                  }
+                  input:focus label {
+                        color: #000;
+                  }
+                  small {
+                        display: flex;
+                        justify-content: flex-start;
+                        padding: 0.5rem 0 0 0;
+                  }
+                  // i {
+                  //       position: absolute;
+                  //       right: 15px;
+                  //       bottom: 30px;
+                  // }
+                  .success-icon {
+                        color: green;
+                        opacity: 0;
+                        position: absolute;
+                        right: 15px;
+                        bottom: 30px;
+                  }
+                  .failure-icon {
+                        color: red;
+                        opacity: 0;
+                        position: absolute;
+                        right: 15px;
+                        bottom: 48px;
+                  }
+            }
+      }
+}
+
+.show-icon {
+      opacity: 1 !important;
+}
